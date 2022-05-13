@@ -175,7 +175,7 @@ public class Building {
      for(Elevator e: elevatorList){
        StringBuilder sb = new StringBuilder();
        sb.append("No."+e.id+"Elevator:");
-       sb.append(e.floor+"  ");
+       sb.append(e.floor + 1+"  ");
        sb.append("elevatorPressed  "+e.elevatorPressed);
        sb.append("  floorTogo: ");
        if(e.direction==1){
